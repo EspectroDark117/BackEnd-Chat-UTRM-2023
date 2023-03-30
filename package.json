@@ -1,0 +1,26 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Back del Chat",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon App.js",
+    "test": "echo \"Error: no test specified\"  && exit 1"
+  },
+  "author": "JuanCarlos",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.21.2",
+    "socket.io": "^4.6.1",
+    "telegraf": "^4.8.6"
+  }
+}
